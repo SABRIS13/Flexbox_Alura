@@ -3,27 +3,42 @@
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-areas: 
-    "encabezado"
-    "contenido"
-    "rodapie";
+        "header"
+        "contenido"
+        "footer";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
   
 }
 
-.encabezado {
-    background:#dcdedd;
-    grid-area:encabezado;
-
-    
+.encabezado{
+    align-items: center;
+    display: flex;
+    grid-area:header;
+    padding: 0 2rem;
+    background: #f1f1f1; 
 }
+
+.menu__link{
+    padding: .5rem 1rem;
+    color:#333333;
+
+}
+
+
+.menu__link:hover , .menu__link.activo{
+    border-bottom: 2px solid rgb(79, 18, 109);
+}
+
 .contenido {
     grid-area:contenido;
-
+    padding: 0 2rem;
 }
 
-.rodapie { 
-    grid-area:rodapie;
-
-    
+.rodapie{ 
+    background: #fdfdfd;
+    color: #333333;
+    grid-area: footer;
+    padding: 1rem;
+    text-align: center;
 }
