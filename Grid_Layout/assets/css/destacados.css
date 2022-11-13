@@ -18,34 +18,27 @@
 
 
 .destaques__secundario:nth-child(2){
-    background:url('../img/otra_vez_tu_cover.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background:url('../img/otra_vez_tu_cover.jpg') center / cover no-repeat;
+    grid-column: 4/ 4;
+    grid-row: 3 /3 ;
 
 }
 .destaques__secundario:nth-child(3){
-    background:url('../img/romper_el_circulo_cover.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background:url('../img/romper_el_circulo_cover.jpg') center / cover no-repeat;
+    grid-column: 4/ 4;
+    grid-row: 2 /3 ;
 }
 
 .destaques__secundario:nth-child(4){
-    background:url('../img/wattpad_cover.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background:url('../img/wattpad_cover.jpg') center / cover no-repeat;
+    grid-column: 3/ 4;
+    grid-row: 3 /4 ;
 }
 
 .destaques__secundario:nth-child(5){
-    background:url('../img/the_spanish_love_deception_cover.jpg');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background:url('../img/the_spanish_love_deception_cover.jpg') center / cover no-repeat;
+    grid-column: 4/ 4;
+    grid-row: 1 / 2 ;
 }
 
 
