@@ -33,3 +33,9 @@
     font-size: 1.2rem;
     line-height: normal;
 }
+
+.destacados__boton {
+    color: var(--boton-rojo);
+    border-color: var(--boton-rojo);
+    margin: 0 auto;
+}
