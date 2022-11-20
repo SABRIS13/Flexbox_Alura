@@ -10,5 +10,9 @@
 ### Layouts Responsivos
 Crear página de Apperia para hacerla un sitio responsivo para celulares, tablets y computadoras. El diseño del Front-End se baso en el siguiente figma:
  [Apperia](https://www.figma.com/file/Cv9OIfwW20qbM2ywcSXOnK/Apeperia-Mobile-First-(inicial)?node-id=0%3A1&t=bKz9MnyhBC595yqr-0)
+ ![image](https://user-images.githubusercontent.com/101822315/202878588-834a50a5-de97-450d-a916-7d203073cbd5.png)
  
-![image](https://user-images.githubusercontent.com/101822315/202833374-9c6a443f-ba1c-4834-8361-9b51bbe6e26e.png)
+## Arquitectura CSS
+Empleo de la estructura Atomic CSS, que es el enfoque que favorece las clases pequeñas de un solo propósito con nombres basados en la función visual. Así como la aplicación del BEM para nombrar clases. 
+![image](https://user-images.githubusercontent.com/101822315/202878515-735dbb09-e833-4dc1-948e-d8f12b75aff4.png)
+Figma del proyecto: [aquí](https://www.figma.com/file/ZIZuMVCGh6cE3UQvTbFsuj/alura-bootstrap?node-id=0%3A1)
