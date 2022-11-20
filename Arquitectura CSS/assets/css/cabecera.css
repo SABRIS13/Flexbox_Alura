@@ -28,3 +28,16 @@
 .menu_item:hover{
     text-decoration: underline;
 }
+@media screen and (min-width:0){
+    .cabecera{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    .cabecera{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+}

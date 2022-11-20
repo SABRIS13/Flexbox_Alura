@@ -1,0 +1,11 @@
+@media screen and (min-width:0) {
+    .cabecera_logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cabecera_logo {
+        display: block;
+    }
+}
